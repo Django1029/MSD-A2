@@ -28,3 +28,56 @@ Technologies Used
 
 ##  Project Structure  
 # MSD-A2
+
+Branching Strategy
+
+The following Git workflow was used:
+
+main – production-ready code
+
+dev – development branch for integration
+
+feature/add-task – feature branch for adding tasks
+
+feature/delete-task – feature branch for deleting tasks
+
+Each feature branch was merged into dev via pull requests, then merged into main after testing.
+
+Configuration Management
+
+package.json – manages dependencies
+
+config.js – contains application settings (port, storage file)
+
+README.md – setup and usage documentation
+
+GitHub history – shows commit messages, branching, and merges
+
+Procurement Plan (RFP)
+
+A separate document has been prepared to justify the selection of tools and services, including:
+
+Node.js
+
+Express.js
+
+SQLite/JSON storage
+
+GitHub for version control
+
+Render/Heroku (optional for deployment)
+
+Screenshots (to be added)
+
+Commit history
+
+Branches
+
+Pull requests
+
+Running application
+ Author
+
+Student ID: 24516646
+Unit Code: ISYS3001
+Assessment: A2 
