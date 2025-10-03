@@ -10,7 +10,7 @@ const config = {
     app: {
         name: 'TaskFlow',
         version: '1.0.0',
-        description: 'Simple task management application'
+        description: 'Simple task management applications'
     },
 
     //  ˝æ›¥Ê¥¢≈‰÷√
