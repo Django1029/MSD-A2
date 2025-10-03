@@ -10,7 +10,7 @@ const config = {
     app: {
         name: 'TaskFlow',
         version: '1.0.0',
-        description: ' task management application'
+        description: 'Simple task management application'
     },
 
     // 数据存储配置
@@ -35,7 +35,7 @@ const config = {
 // 配置验证函数
 function validateConfig() {
     if (config.server.port < 1 || config.server.port > 65535) {
-        throw new Error('The port number must be between 1 and 65535');
+        throw new Error('The slogan must be between 1 and 65535');
     }
 
     if (config.security.maxTaskLength <= 0) {

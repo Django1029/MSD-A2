@@ -1,83 +1,26 @@
-# Todo List Web Application  
+# TaskFlow - Simple task management application时
 
-This repository contains the source code for a simple **Todo List Web Application**, developed as part of **ISYS3001 Assessment 2 (Configuration & Procurement Management)**.  
+A simple web task management application based on Node.js, helping you manage your daily tasks efficiently.
 
-The project demonstrates:  
-- Configuration management using **GitHub** (branches, commits, pull requests).  
-- A working web application built with **Node.js + Express** and **JSON file storage**.  
-- Procurement planning (documented in a separate RFP report).  
+## Functional features
 
----
+- ✅ Add a new task
+- ✅ Mark the completion status of the task
+- ✅ Delete the task
+- ✅ Task statistics information
+- ✅ Responsive design, supporting mobile access
 
- Features  
-- Add new tasks  
-- View all tasks  
-- Delete tasks  
-- Persistent storage in `tasks.json`  
+## Installation and operation
 
----
+### Prerequisite
+Node.js (version 12 or higher)npm (usually installed with Node.js)
 
-Technologies Used  
-- **Node.js** – runtime environment  
-- **Express.js** – backend web framework  
-- **HTML + CSS + JavaScript** – frontend UI  
-- **JSON file** – simple data storage  
-- **GitHub** – version control and configuration management  
+### 安装步骤
 
----
+1. Put all these files in the same folder
 
-##  Project Structure  
-# MSD-A2
+2. Open the Terminal/Command Prompt and enter the project folder
 
-Branching Strategy
-
-The following Git workflow was used:
-
-main – production-ready code
-
-dev – development branch for integration
-
-feature/add-task – feature branch for adding tasks
-
-feature/delete-task – feature branch for deleting tasks
-
-Each feature branch was merged into dev via pull requests, then merged into main after testing.
-
-Configuration Management
-
-package.json – manages dependencies
-
-config.js – contains application settings (port, storage file)
-
-README.md – setup and usage documentation
-
-GitHub history – shows commit messages, branching, and merges
-
-Procurement Plan (RFP)
-
-A separate document has been prepared to justify the selection of tools and services, including:
-
-Node.js
-
-Express.js
-
-SQLite/JSON storage
-
-GitHub for version control
-
-Render/Heroku (optional for deployment)
-
-Screenshots (to be added)
-
-Commit history
-
-Branches
-
-Pull requests
-
-Running application
- Author
-
-Student ID: 24516646
-Unit Code: ISYS3001
-Assessment: A2 
+3. Installation dependencies：
+```bash
+npm install

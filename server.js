@@ -113,14 +113,14 @@ app.delete('/api/tasks/:id', (req, res) => {
     const taskIndex = data.tasks.findIndex(task => task.id === taskId);
 
     if (taskIndex === -1) {
-        return res.status(404).json({ error: 'The update task failed.' });
+        return res.status(404).json({ error: '"Not found"' });
     }
 
     // 删除任务
     data.tasks.splice(taskIndex, 1);
 
     if (saveTasks(data)) {
-        res.json({ message: 'The update task failed.' });
+        res.json({ message: 'Task deletion successful' });
     } else {
         res.status(500).json({ error: 'Failed to delete the task' });
     }
@@ -136,5 +136,5 @@ initializeTasksFile();
 
 app.listen(config.server.port, () => {
     console.log(`${config.app.name} The server is running http://${config.server.host}:${config.server.port}`);
-    console.log(`The server is running: ${config.app.version}`);
+    console.log(`Application version: ${config.app.version}`);
 });
